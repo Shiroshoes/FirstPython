@@ -52,3 +52,16 @@ print("FLoat Method")
 print(f"The RX-78 is ${price}")
 print(f"The country's GDP is {gdp} Billion Dollars")
 print(f"The average height of a student is {height}")
+
+print("\n")
+
+#Boolean
+real = True # if you change this to False then the Else will be printed
+fallacy = False
+
+print("BOOLEAN method")
+print(f"Is that news real? {fallacy}")
+if real:
+    print("Is that news real?")
+else:
+    print("That news is fake")
