@@ -36,9 +36,25 @@ print(new)
 # username must not contain spaces
 # username must not contain digits
 
-username = input("Enter your username: ")
 
-if len(username) > 12 and username.isalpha() and " " not in username and not username.isdigit():
-    print(f"{username} is a Valid username")
-else:
-    print("Invalid username")
+start = True
+
+while start:
+    username = input("Enter your username: ")
+
+    if len(username) > 12:
+        print("Username must be at least 12 characters long")
+    elif not username.find(" ") == -1:
+        print("Username must not contain spaces")
+    elif not username.isalpha():
+        print("Username must only contain letters")
+    else:
+        print(f"{username} is a Valid username")
+    
+    choice = input("Do you want to try again? (y/n): ").lower()
+
+    if choice == "y":
+        start = True
+    else:
+        start = False
+        print("Thank you for using the program!")
