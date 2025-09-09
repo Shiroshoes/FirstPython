@@ -37,6 +37,7 @@ print(new)
 # username must not contain digits
 
 
+# "start" variable to control the loop
 start = True
 
 while start:
