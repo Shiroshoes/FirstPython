@@ -10,7 +10,7 @@ name = input("Enter your name: ")
 
 # length = len(name) - this will return the length of the string
 # Result = name.find("o") - this will return the index of the first letter "o"
-# Result = name.rfind("o") - if the letter selecvted is not found it will return -1
+# Result = name.rfind("o") - if the letter selected is not found it will return -1
 # Result = name.capitalize() - this will capitalize the first letter of the string
 # Result = name.upper() - this will convert all the letters to uppercase
 # Result = name.lower() - this will convert all the letters to lowercase
