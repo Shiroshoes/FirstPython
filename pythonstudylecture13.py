@@ -55,7 +55,7 @@ print("\n")
 
 
 food = input("Enter a food you like (x to exit): ").lower()
-#we se the not logical operator to invert the value
+#we use the not logical operator to invert the value
 while not food == "x":
     print(f"YOur food is {food}")
     food = input("Enter a food you like (x to exit): ").lower()
