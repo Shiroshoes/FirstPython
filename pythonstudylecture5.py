@@ -73,6 +73,7 @@ print(friendi)
 print("\n")
 
 #Modulo assign operator
+print("Modulo")
 remain = friendi % 2
 print(remain)
 

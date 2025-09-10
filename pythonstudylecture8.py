@@ -11,11 +11,13 @@ print("Positive" if num > 0 else "Negative")
 result = "Even" if num % 2 == 0 else "odd"
 print(result)
 
+import math
 
 a = 7
 b = 8
-maxnum = a if a > b else b
-minnum = a if a < b else b
+c = 9
+maxnum = a if a > b and c and b > a and c and c > a and b else max(a,b,c)
+minnum = a if a < b and c and b < a and c and c < a and b else min(a,b,c)
 print(maxnum)
 print(minnum)
 

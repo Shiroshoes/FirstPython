@@ -2,8 +2,8 @@
 #Jeo-Criz Izzack E. Perdio
 # Data Science
 
-#Typecasting is the process of converting the variable from one type to othe
-#THese are = str(), int(), float(), bool()
+#Typecasting is the process of converting the variable from one type to other
+#These are = str(), int(), float(), bool()
 
 print("Typecasting")
 name = "JEO"
