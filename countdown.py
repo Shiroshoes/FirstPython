@@ -10,7 +10,8 @@ for i in reversed(range(0, my_time)): # you can also use the (start:end:step) li
     second = i % 60
     minutes = int(i /60) % 60
     hours = int(i/3600) # %24 for counting the day as well
-    print(f"{hours:02}:{minutes:02}:{second:02}")
+    days = int(i/86400) # in days
+    print(f"{days:02}:{hours:02}:{minutes:02}:{second:02}")
     time.sleep(1)
 
 print("Wake up")
